@@ -20,3 +20,8 @@ Android is mobile operating system developed by google based on Linux kernel. Op
     <td>It's a data source or library or a data store that multiple people can access. example : Contacts app provides your contact list to WhatsApp or Gmail.</td>
   </tr>
 </table>
+
+
+## Additional Components: 
+
+5. 
