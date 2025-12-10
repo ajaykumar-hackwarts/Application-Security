@@ -39,7 +39,7 @@ Example : In Flipkart from choosing "view cart" button it is going to cart activ
 
 Example : You click a share button on photo and android shows a list of apps(whatsapp, gmail) to share the photo.
 
--- Intent Filter : It's a declaration in AndroidManifest.xml which tells the android which type of intents a component(activity, service, broadcast receiver) can handle. 
+- Intent Filter : It's a declaration in AndroidManifest.xml which tells the android which type of intents a component(activity, service, broadcast receiver) can handle. 
 
 Example : With the same above example the list of app's manifest will have the intent filter will say that I can handle this like share the photo.
 
