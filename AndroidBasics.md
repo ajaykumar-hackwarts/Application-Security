@@ -22,7 +22,7 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 </table>
 
 
-# Additional Components: 
+# Additional Components : 
 
 ## 5. Intent : 
 
