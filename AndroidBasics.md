@@ -27,18 +27,32 @@ onCreate()
    ↓  
 onStart()  
    ↓  
-onResume()     ← (App is visible & user interacting)
+onResume()     ←
+
+(App is visible & user interacting)
+
    ↓  
+
 onPause()      ← (User partially leaves the app)
+
    ↓  
+
 onStop()       ← (App not visible)
+
    ↓  
+
 onRestart()    ← (User comes back to the app)
+
    ↓  
+
 onStart()  
+
    ↓  
+
 onResume()
+
    ↓  
+
 onDestroy()    ← (App closed completely)
 
 
