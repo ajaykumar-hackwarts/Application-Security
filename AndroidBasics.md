@@ -23,39 +23,27 @@ Android is mobile operating system developed by google based on Linux kernel. Op
 
 # Android Life Cycle : 
 
+<p align="center">
+
 onCreate()  
    ↓  
 onStart()  
    ↓  
-onResume()     ←
-
-(App is visible & user interacting)
-
+onResume()   ← (App is visible & user interacting)  
    ↓  
-
-onPause()      ← (User partially leaves the app)
-
+onPause()    ← (User partially leaves the app)  
    ↓  
-
-onStop()       ← (App not visible)
-
+onStop()     ← (App not visible)  
    ↓  
-
-onRestart()    ← (User comes back to the app)
-
+onRestart()  ← (User comes back to the app)  
    ↓  
-
 onStart()  
-
    ↓  
-
-onResume()
-
+onResume()  
    ↓  
+onDestroy()  ← (App closed completely)
 
-onDestroy()    ← (App closed completely)
-
-
+</p>
 
 # Additional Features : 
 
