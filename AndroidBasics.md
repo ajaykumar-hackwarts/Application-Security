@@ -77,10 +77,10 @@ Example : In WhatsApp Chat, Status and Call fragments are there inside the maina
 
 ## 8. Content Resolver : 
 
-- It's a Class in the android which acts as the bridge between your app and the content provider. Android doesn't allow an app to access some other app's database for security reason. 
+It's a Class in the android which acts as the bridge between your app and the content provider. Android doesn't allow an app to access some other app's database for security reason. 
 
 
-- Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that cannot query contacts, media from another app
+Content provider manages data and content Resolver is an interface your app communicate with the provider. Without that cannot query contacts, media from another app
 
 Example : Share contacts, photos from contacts app and Gallery app to WhatsApp. 
 
