@@ -411,3 +411,18 @@ In Android, permission is what the app is allowed to do and what it can access. 
   </tr>
 </table>
 
+back
+27. RECEIVE_BOOT_COMPLETED : Use to run in background after booting without user's interaction.
+
+<table>
+  <tr>
+    <td>Legitimate Purpose</td>
+    <td>Examples</td>
+    <td>Threats</td>
+  </tr>
+  <tr>
+    <td>Alarm, messaging, security tracking apps</td>
+    <td>Alarm clock, Find my device, Whatsapp, telegram</td> 
+    <td>Malware persistant, background tracking.</td>
+  </tr>
+</table>
