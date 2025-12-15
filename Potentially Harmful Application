@@ -7,11 +7,14 @@ Potentially Harmful Application is an Android app which can harm an user or devi
 Permission needed : 
 - BIND_DEVICE_ADMIN : To lock the device and reset password.
 - WRITE_EXTERNAL_STORAGE : To gain access to the users file and encrypt them. 
-- SYSTEM_ALERT_WINDOW : To display an overlay like "your screen is locked like that and give ransom to get back it"
-- RECEIVE_BOOT_COMPLETED : 
+- SYSTEM_ALERT_WINDOW : To display an overlay like "your screen is locked like that and give ransom to get back the access."
+- RECEIVE_BOOT_COMPLETED : To start the background activity when it is restarted. 
 
 
-2. Backdoor
+## 2. Backdoor : 
+
+
+
 3. Trojan/Riskware
 4. Spyware
 5. Privilege_escalation
