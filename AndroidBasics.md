@@ -51,19 +51,26 @@ onDestroy()  ← (App closed completely)
  # Android App Lifecycle with DCL
 
 
+  Source Code (Java/Kotlin)    
+          ↓
+ 
+  Bytecode (.class)   
+          ↓
+ 
+ DEX(Dalvik Executable) (.dex) 
 
-Source Code (Java/Kotlin)    
-          ↓
-Bytecode (.class)   
-          ↓
-DEX(Dalvik Executable) (.dex) 
-          ↓  
-APK Packaging 
-          ↓  
-Install APK 
-          ↓  
+  ↓ 
+          
+  APK Packaging 
+  
+  ↓  
+       
+  Install APK 
+      
+  ↓  
+          
 ART Execution (DEX → Machine Code)  
-          ↓  
+        ↓  
       Run App
 
 # Additional Features : 
