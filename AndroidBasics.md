@@ -45,6 +45,27 @@ onDestroy()  ← (App closed completely)
 
 </p>
 
+# Android Execution Flow : 
+
+
+ # Android App Lifecycle with DCL
+
+
+
+Source Code (Java/Kotlin)    
+          ↓
+Bytecode (.class)   
+          ↓
+DEX(Dalvik Executable) (.dex) 
+          ↓  
+APK Packaging 
+          ↓  
+Install APK 
+          ↓  
+ART Execution (DEX → Machine Code)  
+          ↓  
+      Run App
+
 # Additional Features : 
 
 ## 5. Intent : 
