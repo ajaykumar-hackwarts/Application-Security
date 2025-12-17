@@ -26,13 +26,21 @@ RAT(Remote Access Trojan) Backdoor :
 
 DCL(Dynamic Code Loading) Backdoor : 
 
-- It's a technique It doesn't contain all the malicious code at the install time instead it download and executes malicious code when running dynamically. 
+- It's a technique where it doesn't contain all the malicious code at the install time instead it download and executes malicious code when running dynamically. 
+
+Remote execution code is the code which allows command or instruction sent from one system and executed on the other system over the internet.
+
+These remote execution connection are of four types 
+- Socket Connection() : Direct network connection that sends command to other system in real time. 
+- C2(Command and Control) : Server has the direct connect with the system and demands a work and system will do it. 
+- FMS(Firebase messaging service)/GCM(Google cloud messaging service)  : A push notification service where a server sends a message to a system without them running or opening. 
+- Receiver : An event based mechanism which is triggered when an event is happened. 
+
+
+3. Trojan/Riskware :     
 
 
 
-
-
-3. Trojan/Riskware
 4. Spyware
 5. Privilege_escalation
 6. Toll fraud
