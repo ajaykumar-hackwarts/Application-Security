@@ -84,10 +84,16 @@ It will have the admin permission and tried to lock the user and reset the passw
 
 ## 7. Toll fraud : 
 
-Code which subscribes to the paid services or purchases without the users permission. 
+- Code which subscribes to the paid services or purchases without the users permission. 
+
+READ_SMS
+RECEIVE_SMS
+BIND_NOTIFICATION_LISTENER
+CHANGE_WIFI_STATE 
+
+Using READ_SMS reads all the sms stored like otp, carrier & subsrciption related messages and using RECEIVE_SMS it can see all the sms before users sees it and BIND_NOTIFICATION_LISTENER can read and hide the notification and using the CHANGE_WIFI_STATE it will change the network settting to mobile instead of WIFI as to subscribe to premium calls it should have the mobile network. 
 
 
-6. 
 7. Rooting
 
 
