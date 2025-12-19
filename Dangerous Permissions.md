@@ -411,7 +411,7 @@ In Android, permission is what the app is allowed to do and what it can access. 
   </tr>
 </table>
 
-back
+
 27. RECEIVE_BOOT_COMPLETED : Use to run in background after booting without user's interaction.
 
 <table>
@@ -424,5 +424,21 @@ back
     <td>Alarm, messaging, security tracking apps</td>
     <td>Alarm clock, Find my device, Whatsapp, telegram</td> 
     <td>Malware persistant, background tracking.</td>
+  </tr>
+</table>
+
+28. BIND_NOTIFICATION_LISTENER : Use to listen and hide notification of the others app.
+
+
+<table>
+  <tr>
+    <td>Legitimate Purpose</td>
+    <td>Examples</td>
+    <td>Threats</td>
+  </tr>
+  <tr>
+    <td>Wearable apps, Messaging assistant apps.</td>
+    <td>Galaxy wearable, Autoresponder to whatsapp.</td> 
+    <td>Phishing, data theft, toll fraud</td>
   </tr>
 </table>
