@@ -31,19 +31,63 @@ DCL(Dynamic Code Loading) Backdoor :
 Remote execution code is the code which allows command or instruction sent from one system and executed on the other system over the internet.
 
 These remote execution connection are of four types 
-- Socket Connection() : Direct network connection that sends command to other system in real time. 
+- Socket Connection()     : Direct network connection that sends command to other system in real time. 
 - C2(Command and Control) : Server has the direct connect with the system and demands a work and system will do it. 
 - FMS(Firebase messaging service)/GCM(Google cloud messaging service)  : A push notification service where a server sends a message to a system without them running or opening. 
-- Receiver : An event based mechanism which is triggered when an event is happened. 
+- Receiver           : An event based mechanism which is triggered when an event is happened. 
 
 
-3. Trojan/Riskware :     
+## 3. Trojan :     
+
+Application which pretends to be a legitimate application but it secretly perform harmful activity after installation.
+
+Red falgs : 
+
+- Application is asking for an unwanted permission which is not at all related to the application behaviour example : Flash light application asking for device admin permission.
+- Application hiding its icons using the setComponentEnabledSetting by using this it can disable or enable any component without uninstalling the application.
+
+## 4. Riskware : 
+
+The application masks themselves as the legitimate application and uses techniques such as obfuscation, dynamic code loading or cloaking to reveal malicious content. 
+
+Cloaking : Based on the specific condition the application change it's beheviour
+
+Server Side Cloaking : The server hides it's real content or functionality and only reveals to a specific user by a conditions. 
+
+- IP-Based/Location-Based Cloaking : Shows different content on the application depending on the vistor's IP address and the physical location.
+- Time-Based Cloaking : Shows different content based on the different time example : dark mode in instagram.
+  
+MMP : Third party analytics platform used by the mobile apps to track, measure and attribute installs. It tells the developer from which ad or campaign the user has installs the app and after installing what did he do first. Popular MMPs are Appsflyer, Adjust, Branch, Singular and Kochava. 
+
+MMP cloaking :  App behaves differently for MMP tracking and it behaves differently for the real users.
 
 
+## 5. Spyware : 
 
-4. Spyware
-5. Privilege_escalation
-6. Toll fraud
+- Malicious Code which collects and exfiltrates user's PII(personal identifiable information) to the third party url
+- It can collect contacts, sms, call logs, calender, documents, camera and clipboard data.
+
+
+## 6. Privilege_escalation : 
+
+- Code which gain the unortherised access and takes over the full control of the device. 
+
+To do Privilege_escalation app should have these permissions. 
+
+BIND_DEVICE_ADMIN
+SYSTEM_ALERT_WINDOW  
+WRITE_EXTERNAL_STORAGE
+BIND_ACCESSIBILITY_SERVICE
+
+It will have the admin permission and tried to lock the user and reset the password and perform some malicious action like take over the complete device. 
+
+
+## 7. Toll fraud : 
+
+Code which subscribes to the paid services or purchases without the users permission. 
+
+
+6. 
 7. Rooting
 
 
