@@ -11,6 +11,8 @@ Steps to run the Frida server.
 - chmod 777 (file name) : (change mode-permission) (read, write and execute with owner, group and others).
 - ./file name  : It will run this file.
 
+Hooking : Intercepting a program calls to alter its behaviour or monitor activity.  
+
 After running the we can do many things like 
 
 1. Injecting scripts :
@@ -23,3 +25,24 @@ Frida - tool
 - -f    - start the app and attach
 - -n    - attach on the running app
 - -l    - load the script  
+
+2. Decryption :
+
+Java.perform(function() {                  
+var decrypt = Java.use('PuGMAu.QumH');      
+console.log("Decrypted :", decrypt.TUDsyZfyyu("MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc=\n"));});     
+
+
+- Java - Works with the java's code 
+- .perform -> run the code after all java classes is loaded 
+- function () -> keyword to run the function.  
+- var -> keyword to create varible 
+- decrypt -> variable name 
+- Java.use -> get access to the java class so it can hook the method, 
+- PuGMAu.QumH -> class name
+- console -> outpur screen
+- .log -> write
+- TUDsyZfyyu -> method name
+- "MAVYx7WhNRA9Eg==\n", "eEAKgPDzfVc=\n" -> 2 parameters
+
+ 
