@@ -10,3 +10,16 @@ Steps to run the Frida server.
 - su : switch users from normal to admin (Does not work on non-rooted device).
 - chmod 777 (file name) : (change mode-permission) (read, write and execute with owner, group and others).
 - ./file name  : It will run this file.
+
+After running the we can do many things like 
+
+1. Injecting scripts :
+
+- Frida -U -f app_package_name -l script.js
+- Frida -U -n app_package_name -l script.js
+
+Frida - tool
+-U    - USB/emulator
+-f    - start the app and attach
+-n    - attach on the running app
+-l    - load the script  
