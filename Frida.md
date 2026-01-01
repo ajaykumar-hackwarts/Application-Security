@@ -19,7 +19,7 @@ After running the we can do many things like
 - Frida -U -n app_package_name -l script.js
 
 Frida - tool
--U    - USB/emulator
--f    - start the app and attach
--n    - attach on the running app
--l    - load the script  
+- -U    - USB/emulator
+- -f    - start the app and attach
+- -n    - attach on the running app
+- -l    - load the script  
